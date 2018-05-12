@@ -1,11 +1,7 @@
 package com.manoj.music.data;
-
-import java.sql.Connection;
-import java.sql.SQLException;
-
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
+import java.sql.*;
 import javax.sql.DataSource;
+import javax.naming.*;
 
 public class ConnectionPool {
 
